@@ -1,0 +1,31 @@
+/*   Reset  */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.element {
+  display: flex;
+  flex-direction: row;
+  flex-grow:1;
+}
+.element-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto;
+}
